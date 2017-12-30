@@ -1,0 +1,70 @@
+body, html{
+	height: 100%;
+	margin:0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.bg-image{
+	background-image: url('../images/img1.jpeg');
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.main-header{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-top: 200px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.main-header h1{
+	font-size: 50px;
+}
+
+.form-type .post-code{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: 0.3rem;
+	text-align: center;
+}
+
+.product{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-1, .section-2, .section-3{
+	float: left;
+	width: 30.3%;
+	margin: 1rem;
+
+
+}
+
+@media screen and (max-width: 700px) {
+	.section-1, .section-2, .section-3 {
+		width: 100%;
+		float: none;
+	}
+}
